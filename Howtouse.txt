@@ -1,0 +1,10 @@
+Download file from source(github)
+unzip file
+In the file root directory press shift+right click to open powershell
+type in npm install to download all of the dependency automatically
+need live redis-server and elasticsearch to connect to
+open 3 more powershell by pressing shift+right click
+1st type in npm run nodemon to run the program and watch for error
+2nd type in npm run watchAppBundle to look for syntax error in client/app/loginapp
+3rd type in npm run watchLoginBundle to look for syntax error in client/login/client
+go to your browser and open the adress that was set in app.js(most likely localhost:3000)

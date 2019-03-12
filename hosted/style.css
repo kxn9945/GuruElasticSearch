@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50,ffffff+50,333333+50,333333+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #ffffff 50%, #333333 50%, #333333 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 50%,#ffffff 50%,#333333 50%,#333333 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#ffffff 50%,#ffffff 50%,#333333 50%,#333333 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+    
+    background: #e1f5fe ;
+}
+
+input {
+}
+#content{
+    text-align: center;
+}
+#createContext{
+    text-align: center;
+}
+#content>.searchResult{
+    text-align: left;
+}
+.jsgrid-cell { 
+    overflow: hidden; 
+}
+#sorting{
+    margin-left: 5%;
+}
+.tagline{
+    display: inline-block;
+}
+.searchLink, .detail{
+    cursor: pointer
+    
+}
+h1,h2,p{
+    color: black
+}
+
+h2{
+    font-size: 0.75rem;
+}
+#sort{
+    margin-bottom: 1em;
+}
+.heading{
+    border-right: 3px solid #eceff1 ;
+}
+.detail:hover{
+    color:#fff 
+}
+.disabled {
+  pointer-events:none !important;
+}
+.highlight{
+    background-color: #ffcdd2;
+}
+h3{color:black;}
